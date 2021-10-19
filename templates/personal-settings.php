@@ -31,18 +31,22 @@ script('nmc-firstrunwizard', ['personalsettings']);
 	<h2><?php p($l->t('Desktop & mobile clients'));?></h2>
 	<div class="clientslinks">
 		<a href="https://static.magentacloud.de/software/MagentaCLOUD.exe" rel="noreferrer noopener" target="_blank">
-			<img src="<?php print_unescaped(image_path('core', 'desktopapp.svg')); ?>"
+			<img src="<?php print_unescaped(image_path('core', 'WinOS.svg')); ?>"
 				 alt="<?php p($l->t('Desktop client'));?>"/>
 		</a>
 		<a href="https://app.adjust.com/r4e1yl" rel="noreferrer noopener" target="_blank">
-			<img src="<?php print_unescaped(image_path('core', 'googleplay.png')); ?>"
+			<img src="<?php print_unescaped(image_path('core', 'Google-Play-Store.svg')); ?>"
 				 alt="<?php p($l->t('Android app'));?>" />
 		</a>
 	</div>
-	<div id="clientslinks">
+	<div id="clientslinks" class="clientslinks">
 		<a href="" rel="noreferrer noopener" target="_blank">
-			<img src="<?php print_unescaped(image_path('core', 'appstore.svg')); ?>"
+			<img src="<?php print_unescaped(image_path('core', 'iOS.svg')); ?>"
 				 alt="<?php p($l->t('iOS app'));?>" />
+		</a>
+		<a href="https://static.magentacloud.de/software/MagentaCLOUD.dmg" rel="noreferrer noopener" target="_blank">
+			<img src="<?php print_unescaped(image_path('core', 'MacOS.svg')); ?>"
+				 alt="<?php p($l->t('mac os'));?>" />
 		</a>
 	</div>
 	<?php
