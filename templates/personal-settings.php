@@ -39,7 +39,7 @@ script('nmc-firstrunwizard', ['personalsettings']);
 				 alt="<?php p($l->t('Android app'));?>" />
 		</a>
 	</div>
-	<div id="clientslinks" class="clientslinks">
+	<div id="clientslinks">
 		<a href="" rel="noreferrer noopener" target="_blank">
 			<img src="<?php print_unescaped(image_path('core', 'iOS.svg')); ?>"
 				 alt="<?php p($l->t('iOS app'));?>" />
@@ -59,10 +59,9 @@ script('nmc-firstrunwizard', ['personalsettings']);
 <div id="webdav-address" class="clientsbox">
 <h2><?php p($l->t('WebDAV Address'));?></h2>
 <em><?php p($l->t('With the WebDAV address, you can set up your MagentaCLOUD as a network drive on Windows, for example. You can find more information about WebDAV and how to use it '))?><a href="https://cloud.telekom-dienste.de/hilfe#einrichten" target="_blank" rel="noreferrer noopener"><span><?php p($l->t('here'));?></span></a></em>
-<div>
-<input id="endpoint-url" type="text" value="<?php p($_['webdav_url']); ?>" />
+<div id="webdav-url">
+<input id="endpoint-url" type="text" value="<?php p($_['webdav_url']); ?>" readonly />
 <a class="button clipboardButton icon-clippy" data-clipboard-target="#endpoint-url"></a>
 </div>
 </div>
 </div>
-
