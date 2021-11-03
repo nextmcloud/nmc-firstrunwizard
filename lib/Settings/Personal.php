@@ -64,7 +64,7 @@ class Personal implements ISettings {
 	 * @since 9.1
 	 */
 	public function getSection() {
-		return '';
+		return 'security';
 	}
 
 	/**
