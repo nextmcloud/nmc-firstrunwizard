@@ -1,5 +1,5 @@
 OC.L10N.register(
-    "firstrunwizard",
+    "nmc-firstrunwizard",
     {
     "Copy to clipboard" : "複製到剪貼簿",
     "Copied!" : "已複製！",

@@ -1,5 +1,5 @@
 OC.L10N.register(
-    "firstrunwizard",
+    "nmc-firstrunwizard",
     {
     "About" : "সমপরকে",
     "Get the apps to sync your files" : "আপনার ফাইলসমূহ সিংক করতে অ্যাপস নিন",

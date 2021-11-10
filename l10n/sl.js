@@ -1,5 +1,5 @@
 OC.L10N.register(
-    "firstrunwizard",
+    "nmc-firstrunwizard",
     {
     "Copy to clipboard" : "Kopiraj v odložišče",
     "Copied!" : "Kopirano!",

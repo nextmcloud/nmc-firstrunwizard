@@ -1,5 +1,5 @@
 OC.L10N.register(
-    "firstrunwizard",
+    "nmc-firstrunwizard",
     {
     "Copied!" : "S-a copiat!",
     "Not supported!" : "Nu este suportat!",

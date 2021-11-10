@@ -1,5 +1,5 @@
 OC.L10N.register(
-    "firstrunwizard",
+    "nmc-firstrunwizard",
     {
     "Copied!" : "Gekopieer!",
     "Not supported!" : "Word nie ondersteun nie!",

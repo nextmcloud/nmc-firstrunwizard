@@ -1,5 +1,5 @@
 OC.L10N.register(
-    "firstrunwizard",
+    "nmc-firstrunwizard",
     {
     "Copied!" : "Kopirano",
     "Get the apps to sync your files" : "Koristite aplikacije za sinhronizaciju svojih datoteka",

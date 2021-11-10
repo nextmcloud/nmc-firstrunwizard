@@ -1,5 +1,5 @@
 OC.L10N.register(
-    "firstrunwizard",
+    "nmc-firstrunwizard",
     {
     "Not supported!" : "සහාය නොදක්වයි!",
     "Press ⌘-C to copy." : "පිටපත් කිරීමට ⌘-C ඔබන්න.",

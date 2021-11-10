@@ -1,5 +1,5 @@
 OC.L10N.register(
-    "firstrunwizard",
+    "nmc-firstrunwizard",
     {
     "Copy to clipboard" : "Copia-ho al porta-papers",
     "Copied!" : "S'ha copiat!",

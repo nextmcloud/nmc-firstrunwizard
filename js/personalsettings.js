@@ -7,7 +7,7 @@
 	})
 
 	function initLinkToClipboard() {
-		var originalTitle = t('nmcfirstrunwizard', 'Copy to clipboard')
+		var originalTitle = t('nmc-firstrunwizard', 'Copy to clipboard')
 
 		/* reused from settings/js/authtoken_view.js */
 		$('#endpoint-url + .clipboardButton').tooltip({
@@ -23,7 +23,7 @@
 
 			// show copied notification
 			$input.tooltip('hide')
-				.attr('data-original-title', t('nmcfirstrunwizard', 'Copied!'))
+				.attr('data-original-title', t('nmc-firstrunwizard', 'Copied!'))
 				.tooltip('fixTitle')
 				.tooltip({
 					placement: 'bottom',
@@ -43,11 +43,11 @@
 			var $input = $(e.trigger)
 			var actionMsg = ''
 			if (/iPhone|iPad/i.test(navigator.userAgent)) {
-				actionMsg = t('nmcfirstrunwizard', 'Not supported!')
+				actionMsg = t('nmc-firstrunwizard', 'Not supported!')
 			} else if (/Mac/i.test(navigator.userAgent)) {
-				actionMsg = t('nmcfirstrunwizard', 'Press ⌘-C to copy.')
+				actionMsg = t('nmc-firstrunwizard', 'Press ⌘-C to copy.')
 			} else {
-				actionMsg = t('nmcfirstrunwizard', 'Press Ctrl-C to copy.')
+				actionMsg = t('nmc-firstrunwizard', 'Press Ctrl-C to copy.')
 			}
 
 			// show error

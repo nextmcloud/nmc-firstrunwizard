@@ -1,5 +1,5 @@
 OC.L10N.register(
-    "firstrunwizard",
+    "nmc-firstrunwizard",
     {
     "About" : "Haqqında",
     "Get the apps to sync your files" : "Fayllarınızın sinxronizasiyası üçün proqramları götürün",

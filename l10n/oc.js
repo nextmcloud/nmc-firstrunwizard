@@ -1,5 +1,5 @@
 OC.L10N.register(
-    "firstrunwizard",
+    "nmc-firstrunwizard",
     {
     "About" : "A prepaus",
     "Communication with Nextcloud Talk" : "Comunicacion amb Nextcloud Talk",

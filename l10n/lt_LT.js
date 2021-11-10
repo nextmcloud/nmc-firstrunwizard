@@ -1,5 +1,5 @@
 OC.L10N.register(
-    "firstrunwizard",
+    "nmc-firstrunwizard",
     {
     "Copy to clipboard" : "Kopijuoti į iškarpinę",
     "Copied!" : "Nukopijuota!",
