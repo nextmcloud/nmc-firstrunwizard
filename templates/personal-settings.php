@@ -61,7 +61,7 @@ script('nmc-firstrunwizard', ['personalsettings']);
 <h2><?php p($l->t('WebDAV Address'));?></h2>
 <em><?php p($l->t('With the WebDAV address, you can set up your MagentaCLOUD as a network drive on Windows, for example. You can find more information about WebDAV and how to use it '))?><a href="https://cloud.telekom-dienste.de/hilfe#einrichten" target="_blank" rel="noreferrer noopener"><span><?php p($l->t('here.'));?></span></a></em>
 <div id="webdav-url">
-<input id="endpoint-url" type="text" value="<?php p($_['webdav_url']); ?>" readonly />
+<input id="endpoint-url" type="text" value="https://magentacloud.de/remote.php/webdav" readonly />
 <a class="button clipboardButton icon-clippy" data-clipboard-target="#endpoint-url"></a>
 </div>
 </div>
