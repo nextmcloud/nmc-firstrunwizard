@@ -30,7 +30,7 @@ script('nmc-firstrunwizard', ['personalsettings']);
 <div id="clientsbox" class="clientsbox">
 	<h2><?php p($l->t('Mobile applications'));?></h2>
 	<div class="clientslinks">
-		<a href="" rel="noreferrer noopener" target="_blank">
+		<a href="https://apps.apple.com/us/app/magentacloud-cloud-speicher/id312838242" rel="noreferrer noopener" target="_blank">
 			<img src="<?php print_unescaped(image_path('apps', 'iOS.svg')); ?>"
 				 alt="<?php p($l->t('iOS app'));?>" />
 		</a>
